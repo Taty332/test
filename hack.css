@@ -1,0 +1,22 @@
+.section1::before { /*faire la mise en forme du backgriund*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('pirater.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) grayscale(20%);
+  }
+  .section1  {
+text-align: center;
+  }
+  .section1 p{
+  font-size: 100px;
+  color: red;
+  margin-top: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
